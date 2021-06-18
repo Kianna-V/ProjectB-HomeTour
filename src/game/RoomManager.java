@@ -51,8 +51,8 @@ public void fillRoomManager() {
 			+ " entertainment system with the same 60 inch 4K tv, with gaming console connected and "
 			+ "Ready to play");
 	rooms[3] = gameRoom;
-	Room masterBedroom = new Room("The master bedroom","The Master Bedroom",
-			"Withing the Master, there's a giant king sized bed with plenty of pilllows,"
+	Room masterBedroom = new Room("The Master Bedroom","The Master Bedroom",
+			"Within the Master, there's a giant king sized bed with plenty of pillows,"
 			+ " feel free to take a nap!");
 	rooms[4] = masterBedroom; 
 }
