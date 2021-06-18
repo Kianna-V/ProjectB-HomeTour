@@ -62,7 +62,7 @@ public void fillExits() {
 	//north, east, south, west
 	//foyer at index[0]
 			//north east south west
-	rooms[0].setExits(rooms[1],rooms[3] , rooms[4], rooms[2]); // starting at the room foyer - last param the farthest room in the house
+	rooms[0].setExits(rooms[1],rooms[3] , rooms[4], rooms[2]); // starting at the room foyer -all rooms accessible
 	//living room [1]
 	rooms[1].setExits( rooms[1],rooms[3],rooms[0],rooms[1]);
 	//kitchen[2]
